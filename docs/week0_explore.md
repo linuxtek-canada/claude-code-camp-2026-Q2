@@ -7,7 +7,7 @@
 
 ## 1. An agent file with referenced files eg. AGENT.md, CLAUDE.md, ~/docs/*.MD
 
-### Task: Read the AGENTS.md file and attempt to connect to the MUD
+Task: Read the AGENTS.md file and attempt to connect to the MUD
 
 - opencode can use CLAUDE.md as well, but AGENTS.md is standardsized and is harness agnostic
 - Created an agent file with referenced files in week0_explore/architecture_exploration/01_plain_agent
@@ -19,6 +19,11 @@
 - TMP files created by opencode: mud_full.txt, mud_output.txt, etc - these have captures of the MUD menus as it was stepping through tests.
 - Looks like it built python code to test the connection to the MUD successfully
 - Compared to in [Andrew's video](https://app.exampro.co/student/material/exp-claude/9141) using Claude Haiku originally which failed to connect to the MUD.
+
+Screenshots:
+![Building AGENT.md using opencode](../docs/assets/week0/opencode_explore_architecture_1_todo.png)
+![Agent mistakes character class](../docs/assets/week0/opencode_explore_architecture_1_class_check.png)
+![Agent completes task - gets bakery menu](../docs/assets/week0/opencode_explore_architecture_1_goals_complete.png)
 
 ## 2. Agent skills driven by a main agent eg. ~/.skills
 
@@ -90,13 +95,10 @@ I can see the issue. Every command spawns a new Python process → new nc subpro
 Let me check tmux availability and create a plan.
 ```
 
+Screenshots
+![Writing play-mud skill](../docs/assets/week0/opencode_explore_architecture_2_writing_skills.png)
 
-
-
-
-
-
-### Technical Conclusions
+## Technical Conclusions
 
 opencode was successfully able to complete the task: log into the MUD, navigate the city, find the bakery, and get the menu and store it to a file.
 I did give more detailed instructions in steps, which opencode turned into a To-Do list and executed in order.
