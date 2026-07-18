@@ -1,0 +1,5 @@
+dummy
+helloworld
+Y
+look
+quit

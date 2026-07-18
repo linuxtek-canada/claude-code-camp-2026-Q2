@@ -1,0 +1,13 @@
+The Bakery Menu
+===============
+
+   Free instructions provided by the store:
+   Buy  - Will buy you some bread or pastry.
+   List - The baker will kindly tell you the price and sort of the bread in
+          his bakery.
+
+ ##   Available   Item                                               Cost
+----------------------------------------------------------------------------
+  1)  Unlimited   A danish pastry                                       7
+  2)  Unlimited   A bread                                              14
+  3)  Unlimited   A waybread                                           72

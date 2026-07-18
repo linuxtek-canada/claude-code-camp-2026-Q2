@@ -92,7 +92,7 @@ help weather
 help where
 help who
 help look
-help exaxime
+help examine
 help exits
 help consider
 ```

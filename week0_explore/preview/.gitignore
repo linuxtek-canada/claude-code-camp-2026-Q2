@@ -1,0 +1,7 @@
+# Ignore data, world, and web directories recursively
+**/data
+**/world
+**/web
+
+# BUT, un-ignore .keep files so empty directories are still tracked
+!.keep
